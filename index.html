@@ -5,23 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de codigo QR</title>
     <link rel="icon" href="icon/codigo-qr.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div class="contenedor">
-            <h1>QR Code Generator</h1>
-            <div class="contenedor-inbut">
-                <input type="text" id="qrcode" placeholder="Introduzca la url">
-                <button id="generar-qr">Generar</button>
+        <div class="tarjeta-principal">
+            <h1>Generador QR</h1>
+            <div class="grupo-entrada">
+                <input type="text" id="entrada-url" placeholder="Introduce la URL aquí">
+                <button id="boton-generar">Generar</button>
             </div>
-            <div id="qr-code" class="qr-code">
-                <span id="desactivado">QR CODE</span>
-                <!-- El qr se generara desde JavaScript -->
+            <div id="contenedor-codigo-qr" class="contenedor-codigo-qr">
+                <span id="texto-vacio" class="texto-vacio">El código QR aparecerá aquí</span>
             </div>
         </div>
     </main>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
