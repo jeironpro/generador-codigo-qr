@@ -1,4 +1,4 @@
-# generador-codigo-qr
+# web-generador-codigo-qr
 
 ## 📌 Descripción
 Este proyecto forma parte de mi portafolio personal.  
